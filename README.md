@@ -1,113 +1,41 @@
 # Keysmith's in a hurry!
 
-Anotações para o jogo.
+A Unity game made during the 35th Ludum Dare.
 
-# Cálculos
+## How to play 
 
-Pagos pelo pedido:
+Once you're on the gameplay screen, you need to read the customer order, then click on the material ingots to change the material of the shapes. Then, click on the shapes to add them to key table. Once the key is assembled on the table, deliver it to the customer and get ready for the next one! 
 
-Cada peça de ouro: 50  
-Cada peça de prata: 30  
-Cada peça de cobre: 20
+The game has no end and no gradual difficulty increase in this jam version. Press ESC if you need to restart the game. 
 
-Quando a gente compra:
+## Backstory 
 
-Cada 10 unidades de ouro: 40  
-Cada 10 unidades de prata: 20  
-Cada 10 unidades de cobre: 10
+Descendant from keysmith masters, you are currently the best keysmith of the region. Besides being recognized for your excellence and tradition in the manufacture of keys, you were recently knighted by the king, for creating the key that saved his kidnapped daughter. Now you need to race against time to meet the demands from your old customers in addition to those who are curious about your work and sudden fame. 
 
-Cada peça gasta X unidades de material:  
-Dente: 7  
-Haste: 17  
-Arco: 15
+## Post-Mortem 
 
-Cada dia dura 3 minutos.
+We've posted the game post-mortem on Ludum Dare blog: 
+http://ludumdare.com/compo/2016/04/24/keysmiths-in-a-hurry-post-mortem/ 
 
-# Descrição dos itens
+## Development Timelapse Video 
 
-## Dentes das chaves
+On Youtube: https://www.youtube.com/watch?v=WKV9eB3anYM 
 
-De Cobre:
+## Developers 
 
-*   a simple copper bit
-*   a cute copper bit
-*   a stilish copper bit
+Adrian Cunha (Kowgan) 
+Eduardo Nogueira (Rufio) 
+Elisa Gules (Elwing) 
+Victor Nogueira (Felladrin) 
 
-De Prata:
+## Tools used to create this game 
 
-*   a simple silver bit
-*   a cute silver bit
-*   a stilish silver bit
+* Unity - For being a robust game engine capable of exporting to HTML5 (WebGL). 
+* MonoDevelop - For scripting editing. 
+* Talk.gg - For team communication. 
+* Cubase - For creating music and sound effects. 
+* Google Docs - For collaborative writing of the game documentation. 
+* Flockdraw & Draw.io - For collaborative drawing. 
+* Sublime Text - For quick manipulation of strings. 
+* Photoshop - For image editing. 
 
-De Ouro:
-
-*   a simple golden bit
-*   a cute golden bit
-*   a stilish golden bit
-
-## Hastes das chaves
-
-De Cobre:
-
-*   a copper basic shaft
-*   a copper spikey shaft
-*   a copper thin shaft
-
-De Prata:
-
-*   a silver basic shaft
-*   a silver spikey shaft
-*   a silver thin shaft
-
-De Ouro:
-
-*   a golden basic shaft
-*   a golden spikey shaft
-*   a golden thin shaft
-
-## Arco das chaves
-
-De Cobre:
-
-*   a copper circular bow
-*   a copper cute bow
-*   a copper fancy bow
-
-De Prata:
-
-*   a silver circular bow
-*   a silver cute bow
-*   a silver fancy bow
-
-De Ouro:
-
-*   a golden circular bow
-*   a golden cute bow
-*   a golden fancy bow
-
-Greetings: "Hi.", "Hello.", "Hey!", "Hail!", "Hola!", "Nice to see you again.", "I'm glad you're open today!","Bonjour!", "Hallo"
-
-Introduction: "I need your services to create a key with", "I wish to make a special order: a key with", "I want a custom key with", "I wonder if you could create a gift for me: a key with", "I used to be an adventurer like you, but then I took an arrow on the knee. Anyway, I need a key with", "You might be able to create for me a key with", "I bet you can do me a key with", "No time to talk. Just do me a key with"
-
-Challenges: "So, will you do it?", "Can you make it?", "Will you help me?", "Can you help me?", "I'm counting on you.", "I know you can do it.", "I need it urgently!", “Are you capable of making this key?”
-
-# Frases que os clientes podem falar
-
-Positivas/Satisfação
-
-*   I’m so glad I’ve got my key! It’s amazing!
-*   Wow! Amazing work!
-*   I'm so excited to meet the keychain king!
-*   My family has been ordering keys here for over thirty years!
-
-Negativas/Insatisfação:
-
-*   This is not what I asked for!
-*   What a waste of money!
-*   What a waste of time!
-*   Awful service!
-*   I’ll never come back here!
-
-Abandonaram a fila:
-
-*   It took so long that I gave up waiting!
